@@ -2,6 +2,8 @@
 
 ## Overview
 
+live-server: "https://codevector-assignment-dwcw.onrender.com/"
+
 This project is a backend API for browsing a large product catalog containing **200,000 products**.
 
 The API provides:
@@ -226,7 +228,7 @@ All invalid requests return:
 ## Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/shriyansh5776/codevector-assignment
 
 cd codevector-assignment
 
@@ -246,7 +248,7 @@ npm run dev
 Create a `.env` file:
 
 ```env
-DATABASE_URL=your_database_url
+DATABASE_URL=postgresql://neondb_owner:npg_5CJORD7FpgLj@ep-summer-forest-atdo8v16-pooler.c-9.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
 
 PORT=5000
 ```
